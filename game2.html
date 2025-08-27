@@ -52,6 +52,8 @@
       function whenloaded() {
         tmp1 = document.getElementById("exp");
         tmp2 = tmp1.getContext("2d");
+        tmp2.fillStyle = "black";
+        tmp2.fillRect(0, 0, 800, 600);
         tmp2.fillStyle = "rgb(255,0,0)";
         tmp2.fillRect(175, 125, 450, 350);
         tmp2.fillStyle = "yellow";
